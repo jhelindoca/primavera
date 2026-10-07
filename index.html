@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clima & Tema</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+  <nav class="navbar navbar-expand-lg">
+ 
+        <div class="container">
+ 
+            <a class="navbar-brand" href="index.html">
+                CLIMA/TEMPO
+            </a>
+ 
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+ 
+                <span class="navbar-toggler-icon"></span>
+ 
+            </button>
+ 
+            <div class="collapse navbar-collapse" id="menu">
+ 
+                <ul class="navbar-nav me-auto">
+ 
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html">
+                            Cadastro
+                        </a>
+                    </li
+ 
+                    <li class="nav-item">
+                        <a class="nav-link" href="cidades.html">
+                            Cidades
+                        </a>
+                    </li>
+ 
+                    <li class="nav-item">
+                        <a class="nav-link" href="climas.html">
+                            Climas
+                        </a>
+                    </li>
+ 
+ 
+                </ul>
+ 
+                <form class="d-flex">
+ 
+                    <input
+                        class="form-control"
+                        type="search"
+                        placeholder="Pesquisar">
+ 
+                    <button class="btn btn-primary" type="submit">
+                        Pesquisar
+                    </button>
+ 
+                </form>
+ 
+            </div>
+ 
+        </div>
+ 
+    </nav>
+
+    <header class="titulo">
+        <div class="container">
+            <h1>Descubra novos lugares</h1>
+        </div>
+    </header>
+
+    <section class="carrossel">
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/sp.png" class="d-block w-100" alt="São Paulo">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/cj.jpg" class="d-block w-100" alt="Guarujá">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/gramado.png" class="d-block w-100" alt="Gramado">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/ubatuba.jpg" class="d-block w-100" alt="Ubatuba">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/holambra1.png" class="d-block w-100" alt="Holambra">
+                </div>
+            </div>
+            <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">
+
+                </span>
+
+            </button>
+            <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">
+                </span>
+            </button>
+        </div>
+    </section>
+    <section class="estacoes">
+
+        <div class="container">
+
+            <h2>Estações do Ano</h2>
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-3">
+
+                    <div class="estacao-card">
+
+                        <img src="./img/prim.jpg"
+                            alt="Primavera">
+
+                        <div class="estacao-info">
+
+                            <h3>Primavera</h3>
+                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+
+                    <div class="estacao-card">
+
+                        <img src="./img/verao.jpg"
+                            alt="Verão">
+                        <div class="estacao-info">
+                            <h3>Verão</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="estacao-card">
+                        <img src="./img/outono.jpg"
+                            alt="Outono">
+                        <div class="estacao-info">
+
+                            <h3>Outono</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="estacao-card">
+                        <img src="./img/inverno.webp"
+                            alt="Inverno">
+                        <div class="estacao-info">
+
+                            <h3>Inverno</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<section class="lugares">
+    <div class="container">
+        <h2>Lugares da cidade</h2>
+
+        <div class="cards-lugares">
+
+            <div class="card-lugar">
+                <img src="./img/centro.cv.jpg" alt="Centro Cívico">
+                <div class="card-conteudo">
+                    <h3>Centro Cívico</h3>
+                    <p>
+                        O Centro Cívico de Americana oferece atividades
+                        esportivas e espaços para lazer.
+                    </p>
+                    <a href="https://www.google.com/search?q=centro+civico+americana">
+                        Veja mais
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-lugar">
+                <img src="./img/avbrasil.jpeg" alt="Avenida Brasil">
+                <div class="card-conteudo">
+                    <h3>Avenida Brasil</h3>
+                    <p>
+                        A Avenida Brasil é uma das principais avenidas
+                        de Americana, com lojas, comércios e serviços.
+                    </p>
+                    <a href="https://www.google.com/maps/place/Av.+Brasil,+Americana+-+SP">
+                        Veja mais
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-lugar">
+                <img src="./img/zool..jpg" alt="Zoológico de Americana">
+                <div class="card-conteudo">
+                    <h3>Zoológico de Americana</h3>
+                    <p>
+                        Um lugar de lazer e contato com a natureza,
+                        com diversos animais.
+                    </p>
+                    <a href="https://www.americana.sp.gov.br/portal_parque/site_parque.php">
+                        Veja mais
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
